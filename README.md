@@ -32,3 +32,11 @@ This repository contains code used in our analysis of longitudinal microbiome da
 - **#Final - Step2.5 Method II**: Results comparing different oversampling methods with feature selection Method II
 - **#Final - Step2.8 K-Value**: Selection of optimal number of features
 - **#Final - Step3 Data-Transformation**: Comparison of optimal data transformation methods and their application points
+
+### Other Dataset Application: GMAP for Food Allergies
+We applied our framework to the GMAP dataset on food allergies, using the same processing steps as in the postpartum depression analysis (Final A workflow). Key outcomes include:
+
+1. **Identical Workflow**: Employed row - level zero - value replacement, early time - point feature selection, centered log - ratio transformation, and conditional generative model oversampling.
+2. **Performance Improvement**: Achieved significant enhancement in model performance for minority class samples related to food allergies (Sensitivity from 0.08 to 0.63).
+3. **Generalizability**: Validated the framework's applicability across different microbiome datasets. 
+
